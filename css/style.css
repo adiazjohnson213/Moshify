@@ -198,7 +198,7 @@ a {
 }
 
 .btn--primary:hover {
-  background: #3a88fd;
+  background: #3a8ffd;
 }
 
 .btn--secondary {
@@ -207,7 +207,7 @@ a {
 }
 
 .btn--secondary:hover {
-  background: #00c8eb;
+  background: #05cdf0;
 }
 
 .btn--accent {
@@ -362,4 +362,21 @@ a {
   .plan__description {
     font-size: 1.7rem;
   }
+}
+
+/* Media */
+.media {
+  display: flex;
+}
+
+.media__title {
+  margin: 0;
+}
+
+.media__body {
+  margin: 0 2rem;
+}
+
+.media__image {
+  margin-top: 1rem;
 }
